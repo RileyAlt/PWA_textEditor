@@ -4,10 +4,10 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start:dev": "",
-    "start": "",
+    "start:dev": "webpack-dev-server",
+    "start": "webpack --watch",
     "server": "",
-    "build": "",
+    "build": "webpack --mode production",
     "install": "",
     "client": ""
   },
@@ -20,6 +20,8 @@
   },
   "devDependencies": {
     "concurrently": "^5.2.0",
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.4",
+    "webpack": "^5.82.0",
+    "webpack-cli": "^5.0.2"
   }
 }
